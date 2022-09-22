@@ -1,3 +1,12 @@
+/* Cores do logo/icon/site 
+ #f86729 > Laranja
+ #6d5d56 > Cinza
+ #38000 > Vermelho escuro
+ #efeeee > "branco do fundo"
+ #f3cb72 > cor do pastel 
+ #700000 > vermehlo pote
+
+*/
 h1 {
     color: #f86729;
 }
@@ -5,5 +14,9 @@ h2 {
     color: #6d5d56;
 }
 h3 {
-    color: #efeeee;
+    color: #380000;
+}
+
+body {
+    background-color: #efeeee;
 }
