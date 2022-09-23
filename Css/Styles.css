@@ -1,22 +1,83 @@
-/* Cores do logo/icon/site 
- #f86729 > Laranja
- #6d5d56 > Cinza
- #38000 > Vermelho escuro
- #efeeee > "branco do fundo"
- #f3cb72 > cor do pastel 
- #700000 > vermehlo pote
-
-*/
-h1 {
-    color: #f86729;
-}
-h2 {
-    color: #6d5d56;
-}
-h3 {
-    color: #380000;
-}
-
+/* Cor do fundo */
 body {
-    background-color: #efeeee;
+    background-color: #eae8e9;
+}
+
+/* Flexbox do menu*/
+.menuDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Botões menu*/
+.button {
+    margin-top: 3%;
+    color: #6d5d56;
+    /*Fonte especificidades */
+    font-family: 'Fonrine-Leight';
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    /* Efeito do menu no Desktop*/
+    position: relative;
+}
+
+/* Pseudo classe efeito passa o mouse muda de cor*/
+.button:hover {
+    color: #f86729;
+    transition: 1ms;
+
+}
+
+/* Pseudo elemento efeito fica em cima da letrinha*/
+.button::after {
+    content: " ";
+    width: 0%;
+    height: 3px;
+    border-radius: 50px;
+    background-color: #90847f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -19px;
+
+}
+
+/* Juntando os dois para dar o efeito que vemos no desktop*/
+.button:hover::after {
+    transition: 1s;
+    width: 100%;
+}
+
+/* Classe da logo no início do site*/
+.logoIndex {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+    align-items: center;
+}
+
+/* Rodapé da página centralizar */
+.creditosDiv {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+/* Rodapé da página */
+.creditos {
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+/* Efeito do link AGC*/
+a:hover {
+    color: #f86729;
 }
