@@ -1,0 +1,38 @@
+
+/* divs */
+.produtosImagens {
+    width: 100px;
+    height: 100px;
+}
+
+#bebidas {
+    display: flex;
+    padding: 4%;
+    justify-content: space-evenly;
+}
+
+.produtos {
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    align-items: center;
+}
+
+/* textos */
+
+*{
+    font-family: 'Fonrine-Leight';
+    color: #6d5d56;
+}
+
+h3 {
+    color: black;
+
+}
+
+h1 {
+    color: red;
+    background-color: yellow;
+}
