@@ -5,7 +5,18 @@
     height: 100px;
 }
 
-#bebidas {
+#pagGeral {
+    display: flex;
+    justify-content: center;
+}
+
+#itens {
+    display: flex;
+    flex-flow: column;
+    width: 95%;
+}
+
+.pGeral {
     display: flex;
     padding: 4%;
     justify-content: space-evenly;
@@ -29,10 +40,18 @@
 
 h3 {
     color: black;
+}
 
+h2 {
+    display: flex;
+    color: red;
+    background-color: yellow;
+    border-radius: 20px;
+    width: 150px;
+    justify-content: center;
+    font-size: 30px;
 }
 
 h1 {
-    color: red;
-    background-color: yellow;
+    
 }
