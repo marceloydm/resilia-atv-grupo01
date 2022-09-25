@@ -1,27 +1,34 @@
 
-/* divs */
+/* imagens */
 .produtosImagens {
     width: 100px;
     height: 100px;
 }
 
+/* bordas das imagens dos pasteis */
+.pastImg {
+    border-radius: 50px;
+}
+
+/* div geral de tudo o que não está no footer ou no header. feita para facilitar a organização */
 #pagGeral {
     display: flex;
     justify-content: center;
 }
 
+/* div para organizar produtos e textos */
 #itens {
     display: flex;
     flex-flow: column;
     width: 95%;
 }
-
+/* classe pGeral = produtos geral. Organiza a div dos produtos individuais */
 .pGeral {
     display: flex;
     padding: 4%;
     justify-content: space-evenly;
 }
-
+/* produtos individuais */
 .produtos {
     display: flex;
     flex-flow: column;
@@ -36,6 +43,7 @@
 *{
     font-family: 'Fonrine-Leight';
     color: #6d5d56;
+    text-align:center;
 }
 
 h3 {
