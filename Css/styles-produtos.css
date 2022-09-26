@@ -16,17 +16,17 @@
 
 /* produtos individuais */
 .produtos {
+    border: red;
+
+
+
+
     display: flex;
     flex-flow: column;
     background-color: white;
     border-radius: 20px;
     width: 22%;
     align-items: center;
-}
-
-.produtos:hover {
-    border-color: #6d5d56;
-
 }
 
 /* para ajustar a imagem na div dos produtos */
@@ -90,7 +90,7 @@ p {
 h3 {
     color: black;
     text-align: center;
-    width: 90%;
+    width: 100%;
 }
 
 h2 {
@@ -101,4 +101,8 @@ h2 {
     width: 120px;
     justify-content: center;
     font-size: 30px;
+}
+
+.produtos:hover {
+    background-color: whitesmoke;
 }

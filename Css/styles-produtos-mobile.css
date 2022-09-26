@@ -20,8 +20,9 @@
     
 
     /* o problema tá aqui */
-    /* .precoProduto {
-        position: absolute;
-        bottom: -100%;
-    } */
+    .precoProduto {
+        position: ;
+        bottom: 5%;
+        top: 5%;
+    }
 }
