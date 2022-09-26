@@ -1,9 +1,5 @@
 /* tentando consertar os pasteis */
 
-#bGeral {
-    display: inline-block;
-}
-
 /* imagens */
 .produtosImagens {
     width: 100px;
@@ -16,6 +12,21 @@
 
 #guarana {
     width: 55px;
+}
+
+/* produtos individuais */
+.produtos {
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    border-radius: 20px;
+    width: 22%;
+    align-items: center;
+}
+
+.produtos:hover {
+    border-color: #6d5d56;
+
 }
 
 /* para ajustar a imagem na div dos produtos */
@@ -34,8 +45,6 @@
     justify-content: center;
 }
 
-
-
 /* para ajustar o texto da descrição */
 .descricaoProduto {
     width: 90%;
@@ -50,29 +59,34 @@
 /* classe pGeral = produtos geral. Organiza a div dos produtos individuais */
 .pGeral {
     display: flex;
+    flex-wrap: wrap;
     padding: 4%;
+    
     justify-content: space-evenly;
 }
-/* produtos individuais */
-.produtos {
-    display: flex;
-    flex-flow: column;
-    background-color: white;
-    border-radius: 20px;
-    width: 250px;
-    align-items: center;
+
+/* css da gambiarra pra quebrar a linha */
+#break {
+    width: 100%;
+    height: 5%;
 }
 
 /* textos */
 
-*{
+p,h1{
     font-family: 'Fonrine-Leight';
     color: #6d5d56;
     text-align:center;
 }
 
+p {
+    width: 90%;
+}
+
 h3 {
     color: black;
+    text-align: center;
+    width: 90%;
 }
 
 h2 {
@@ -80,7 +94,7 @@ h2 {
     color: red;
     background-color: yellow;
     border-radius: 20px;
-    width: 150px;
+    width: 120px;
     justify-content: center;
     font-size: 30px;
 }
