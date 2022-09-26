@@ -1,0 +1,27 @@
+@media (max-width: 750px) {
+
+    .produtos {
+        width:45%;
+    }
+
+    #itens {
+        width: 100%;
+    }
+
+    .break {
+        width: 100%;
+        height: 1%;
+        display: flex;
+    }
+
+    #break {
+        height: 1%;
+    }
+    
+
+    /* o problema tá aqui */
+    /* .precoProduto {
+        position: absolute;
+        bottom: -100%;
+    } */
+}

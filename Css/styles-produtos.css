@@ -71,6 +71,10 @@
     height: 5%;
 }
 
+.break {
+    display: none;
+}
+
 /* textos */
 
 p,h1{
