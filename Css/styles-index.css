@@ -7,6 +7,7 @@ body {
 .menuDiv {
     display: flex;
     justify-content: space-evenly;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* Botões menu*/
@@ -14,9 +15,9 @@ body {
     margin-top: 3%;
     color: #6d5d56;
     /*Fonte especificidades */
-    font-family: 'Fonrine-Leight';
-    font-size: 18px;
-    font-weight: bolder;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
     text-decoration: none;
     /* Efeito do menu no Desktop*/
     position: relative;
@@ -50,13 +51,13 @@ body {
 }
 
 /* Classe da logo no início do site*/
-.logo {
+.logoImg {
     display: block;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    max-width: 50%;
-    height: auto;
-    align-items: center;
+    max-width: 100%;
+    margin-bottom: 10px;
 }
 
 /* Rodapé da página centralizar */
