@@ -60,6 +60,19 @@ body {
     margin-bottom: 10px;
 }
 
+/* Imagens index, pastel e hambúrguer */
+.imagensIndex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img {
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+
 /* Rodapé da página centralizar */
 .creditosDiv {
     text-align: center;

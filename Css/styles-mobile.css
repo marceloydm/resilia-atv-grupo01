@@ -46,4 +46,10 @@
     #fotoLanchonete {
         width: 100%;
     }
+
+     /* Imagens index pastel e hambúrguer */
+        .imagensIndex {
+            flex-wrap: wrap;
+        }
+    
 }
