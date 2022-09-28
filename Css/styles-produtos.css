@@ -16,12 +16,7 @@
 
 /* produtos individuais */
 .produtos {
-    border: red;
-
-
-
-
-    display: flex;
+     display: flex;
     flex-flow: column;
     background-color: white;
     border-radius: 20px;
