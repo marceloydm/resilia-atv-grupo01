@@ -32,7 +32,15 @@
     .button:hover::after {
         display: none;
     }
-    
+
+    .logoImg {
+        width: 60%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+
+
+
     /* Página Home (index) */
 
         /* Imagens index pastel e hambúrguer */
@@ -51,7 +59,8 @@
     /* Para foto da página ficar no tamanho ideal */
     #fotoLanchonete {
         width: 100%;
-
+        display: flex;
+        align-items: center;
     }
 
     

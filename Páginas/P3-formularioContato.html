@@ -24,7 +24,7 @@
     </div>
     <!-- Logo da página e posicionamento-->
     <a href="../index.html">
-        <img class="logoImg" id="logo" src="../Imagens/logoTeste.png">
+        <img class="logoImg" id="logo" src="../Imagens/logo2.png">
     </a>
 
     <!-- PARTE VICTOR -->
@@ -59,41 +59,11 @@
                     <option>Hambúrgueres</option>
                     <option>Sobremesas</option>
                 </select>
-                <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+                <input type="hidden" name="_next" value="http://192.168.1.93:5500/P%C3%A1ginas/thanks.html">
                 <input type="submit" name="enviar" value="Enviar">
             </form>
         </div>
     </section>
-
-    <script>
-        function validacao() {
-            var formulario = document.forms["formcadastro"]
-            var nome = formulario.name.value
-            var telefone = formulario.tel.value
-            var endereco = formulario.adress.value
-            
-
-            var erro = false
-
-            if (formulario.name.value=='') {
-                alert("Oops! Este campo precisa ser preenchido.")
-            }
-
-            if (telefone.length < 11) {
-                alert ("Oops! Parece que seu telefone não possui todos os dígitos.")
-                erro = true // quando identifica um erro 
-            }
-             
-            if (erro) { // se houver algum erro, retorna falso
-                return false
-            } else {
-                return true
-            }
-        
-        }
-    </script>
-
-
     
     <!-- Linha e os créditos abaixo-->
     <hr>
@@ -101,6 +71,7 @@
         <h3 class="creditos">© 2022 - Lanchonete da Nenê. Todos os direitos reservados. Site desenvolvido pela </h3> <a
             class="creditos" href="https://xandyninfadora.github.io/AGC/">AGC</a>
     </div>
+    <script src="../Js/Java.js"></script>
 </body>
 
 </html>
