@@ -76,5 +76,8 @@
         width: 100%;
 
     }
-
+    /*Logo PáginaIndex Espaçamento*/
+    #logo1{
+        margin-bottom: 15%;
+        }
 }
