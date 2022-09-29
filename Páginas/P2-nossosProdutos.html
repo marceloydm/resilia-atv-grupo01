@@ -55,7 +55,7 @@
 
     <!-- Div geral -->
     <hr>
-    <h1>NOSSOS PRODUTOS</h1>
+    <h1 id="nossosProdutos">NOSSOS PRODUTOS</h1>
     <hr>
     <div id="pagGeral">
         <!-- produtos-->
@@ -63,7 +63,7 @@
         <div id="itens">
             <h1>PASTEIS</h1>
             <div id="bGeral" class="pGeral">    
-                <div class="produtos" onclick="clickProduto()">
+                <div class="produtos" onclick="clickProduto('Pastel de Carne', '10,99')">
                     <div class="divImg">
                         <img class="produtosImagens pastImg" src="../Imagens/produtos/pasteis/carne.webp" alt="">
                     </div>
@@ -74,10 +74,10 @@
                         <p>Pastel de Carne Moída frito na hora</p>
                     </div>
                     <div class="precoProduto">
-                        <h2>R$ 1,99</h2>
+                        <h2>R$ 10,99</h2>
                     </div>
                 </div>
-                <div class="produtos" onclick="clickProduto()">
+                <div class="produtos" onclick="clickProduto('Pastel de Frango', '9,80')">
                     <div class="divImg">
                         <img class="produtosImagens pastImg" src="../Imagens/produtos/pasteis/frango.jpg" alt="">
                     </div>
@@ -88,13 +88,13 @@
                         <p>Pastel de Frango desfiado frito na hora</p>
                     </div>
                     <div class="precoProduto">
-                        <h2>R$ 1,99</h2>
+                        <h2>R$ 9,80</h2>
                     </div>
                 </div>
                 <!-- gambiarra pro mobile -->
                 <div class="break"></div>
 
-                <div class="produtos" onclick="clickProduto()">
+                <div class="produtos" onclick="clickProduto('Pastel de Queijo', '7,89')">
                     <div class="divImg">
                         <img class="produtosImagens pastImg" src="../Imagens/produtos/pasteis/queijo.webp" alt="">
                     </div>
@@ -105,10 +105,10 @@
                         <p>Pastel de Queijo frito na hora</p>
                     </div>
                     <div class="precoProduto">
-                        <h2>R$ 1,99</h2>
+                        <h2>R$ 7,89</h2>
                     </div>
                 </div>
-                <div class="produtos" onclick="clickProduto()">
+                <div class="produtos" onclick="clickProduto('Pastel de Camarão', '15,70')">
                     <div class="divImg">
                         <img class="produtosImagens pastImg" src="../Imagens/produtos/pasteis/camarao.webp" alt="">
                     </div>
@@ -119,14 +119,14 @@
                         <p>Pastel de Camarão fresco frito na hora</p>
                     </div>
                     <div class="precoProduto">
-                        <h2>R$ 1,99</h2>
+                        <h2>R$ 15,70</h2>
                     </div>
                 </div> 
 
                     <!-- gambiarra pra quebrar a linha -->
                 <div id="break"></div>
 
-                <div class="produtos" onclick="clickProduto()">
+                <div class="produtos" onclick="clickProduto('Pastel João e Maria', '11,80')">
                     <div class="divImg">
                         <img class="produtosImagens pastImg" src="../Imagens/produtos/pasteis/queijogoiabada.jpg" alt="">
                     </div>
@@ -137,10 +137,10 @@
                         <p>Pastel de Queijo com Goiabada frito na hora</p>
                     </div>
                     <div class="precoProduto">
-                        <h2>R$ 1,99</h2>
+                        <h2>R$ 11,80</h2>
                     </div>
                 </div>
-                <div class="produtos" onclick="clickProduto()">
+                <div class="produtos" onclick="clickProduto('Pastel de Carne Seca', '12,90')">
                     <div class="divImg">
                         <img class="produtosImagens pastImg" src="../Imagens/produtos/pasteis/carneseca.jpg" alt="">
                     </div>
@@ -151,14 +151,14 @@
                         <p>Pastel de Carne Seca frito na hora</p>
                     </div>
                     <div class="precoProduto">
-                        <h2>R$ 1,99</h2>
+                        <h2>R$ 12,90</h2>
                     </div>
                 </div>
 
                 <!-- gambiarra pro mobile -->
                 <div class="break"></div>
 
-                <div class="produtos" onclick="clickProduto()">
+                <div class="produtos" onclick="clickProduto('Pastel de Chocolate', '13,90')">
                     <div class="divImg">
                         <img class="produtosImagens pastImg" src="../Imagens/produtos/pasteis/chocolate.webp" alt="">
                     </div>
@@ -169,10 +169,10 @@
                         <p>Pastel de Chocolate derretido frito na hora</p>
                     </div>
                     <div class="precoProduto">
-                        <h2>R$ 1,99</h2>
+                        <h2>R$ 13,90</h2>
                     </div>
                 </div>
-                <div class="produtos" onclick="clickProduto()">
+                <div class="produtos" onclick="clickProduto('Pastel de Banana ', '9,99')">
                     <div class="divImg">
                         <img class="produtosImagens pastImg" src="../Imagens/produtos/pasteis/banana.webp" alt="">
                     </div>
@@ -183,7 +183,7 @@
                         <p>Pastel de Banana frito na hora</p>
                     </div>
                     <div class="precoProduto">
-                        <h2>R$ 1,99</h2>
+                        <h2>R$ 9,99</h2>
                     </div>
                 </div>
             </div>
@@ -193,7 +193,7 @@
 
             <h1>HAMBURGUERS</h1>
             <div class="pGeral">
-                <div class="produtos" onclick="clickProduto()">
+                <div class="produtos" onclick="clickProduto('X-Burguer', '5,99')">
                     <div class="divImg">
                         <img class="produtosImagens pastImg" src="../Imagens/produtos/hamburgurs/xburguer.png" alt="">
                     </div>
@@ -204,10 +204,10 @@
                         <p>Hamburguer, queijo, presunto e pão simples</p>
                     </div>
                     <div class="precoProduto">
-                        <h2>R$ 1,99</h2>
+                        <h2>R$ 5,99</h2>
                     </div>
                 </div>
-                <div class="produtos" onclick="clickProduto()">
+                <div class="produtos" onclick="clickProduto('X-Tudo', '7,99')">
                     <div class="divImg">
                         <img class="produtosImagens pastImg" src="../Imagens/produtos/hamburgurs/xtudo.webp" alt="">
                     </div>
@@ -218,14 +218,14 @@
                         <p>Hambuguer, queijo, presunto, ovo frito, alface, tomate, bacon e pão com gergilim</p>
                     </div>
                     <div class="precoProduto">
-                        <h2>R$ 1,99</h2>
+                        <h2>R$ 7,99</h2>
                     </div>
                 </div>
 
                 <!-- gambiarra pro mobile -->
                 <div class="break"></div>
 
-                <div class="produtos" onclick="clickProduto()">
+                <div class="produtos" onclick="clickProduto('X-Bacon', '6,99')">
                     <div class="divImg">
                         <img class="produtosImagens pastImg" src="../Imagens/produtos/hamburgurs/xbeacon.jpg" alt="">
                     </div>
@@ -236,10 +236,10 @@
                         <p>Hamburguer, queijo, tomate, alface e muito bacon e pão com gergilim</p>
                     </div>
                     <div class="precoProduto">
-                        <h2>R$ 1,99</h2>
+                        <h2>R$ 6,99</h2>
                     </div>
                 </div>
-                <div class="produtos" onclick="clickProduto()">
+                <div class="produtos" onclick="clickProduto('X-Salada', '4,99')">
                     <div class="divImg">
                         <img class="produtosImagens pastImg" src="../Imagens/produtos/hamburgurs/xsalada.jpg.crdownload" alt="">
                     </div>
@@ -250,13 +250,13 @@
                         <p>Ovo, queijo, alface, cebola e tomate e pão simples</p>
                     </div>
                     <div class="precoProduto">
-                        <h2>R$ 1,99</h2>
+                        <h2>R$ 4,99</h2>
                     </div>
                 </div>
             </div>
             <h1>BEBIDAS</h1>
-            <div class="pGeral">    
-                <div class="produtos" onclick="clickProduto()">
+            <div class="pGeral" id="guaranaPreco">    
+                <div class="produtos" onclick="clickProduto('Guanará Antarctica lata', '3,99')">
                     <div class="divImg">
                         <img id="guarana" class="produtosImagens" src="../Imagens/produtos/bebidas/guarana.png" alt="">
                     </div>
@@ -267,11 +267,11 @@
                         <p>Guaraná Antarctica lata (350ml)</p>
                     </div>
                     <div class="precoProduto">
-                        <h2>R$ 1,99</h2>
+                        <h2>R$ 3,99</h2>
                     </div>
                 </div>
 
-                <div class="produtos" onclick="clickProduto()">
+                <div class="produtos" onclick="clickProduto('Coca-Cola lata', '3,99')">
                     <div class="divImg">
                         <img class="produtosImagens" src="../Imagens/produtos/bebidas/coca-cola.png" alt="">
                     </div>
@@ -282,14 +282,14 @@
                         <p>Coca-Cola lata (470ml)</p>
                     </div>
                     <div class="precoProduto">
-                        <h2>R$ 1,99</h2>
+                        <h2>R$ 4,99</h2>
                     </div>
                 </div>
 
                 <!-- gambiarra pro mobile -->
                 <div class="break"></div>
 
-                <div class="produtos" onclick="clickProduto()">
+                <div class="produtos" onclick="clickProduto('Heineken lata', '6,99')">
                     <div class="divImg">
                         <img id="heineken" class="produtosImagens" src="../Imagens/produtos/bebidas/heineken.png" alt="">
                     </div>
@@ -300,11 +300,11 @@
                         <p>Heineken lata (470ml)</p>
                     </div>
                     <div class="precoProduto">
-                        <h2>R$ 1,99</h2>
+                        <h2>R$ 6,99</h2>
                     </div>
                 </div>
 
-                <div class="produtos" onclick="clickProduto()">
+                <div class="produtos" onclick="clickProduto('Guaravita copo', '1,99')">
                     <div class="divImg">
                         <img class="produtosImagens" src="../Imagens/produtos/bebidas/guaravita.png" alt="">
                     </div>
@@ -329,7 +329,7 @@
                        class="creditos" href="https://xandyninfadora.github.io/AGC/">AGC</a>
             </div>
 </footer>
-<script src="../Js/jsteste.js"></script>
+<script src="../Js/Java.js"></script>
 </body>
 
 </html>

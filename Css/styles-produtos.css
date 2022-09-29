@@ -72,14 +72,24 @@
 
 /* textos */
 
-p,h1{
+/* Adicionei cores aqui nos títulos das bebidas e passei para baixo o "p" */
+h1{
     font-family: 'Fonrine-Leight';
-    color: #6d5d56;
+    color: #f86a2d;
     text-align:center;
+    text-shadow: 1px 1px 1px #5e5c5c;
+}
+ /*Adicionei aqui para mudar de cor */
+#nossosProdutos {
+    color: #6d5d56;
+    text-shadow: 0px 0px 0px rgb(93, 93, 93);
 }
 
 p {
-    width: 90%;
+    font-family: 'Fonrine-Leight';
+    color: #6d5d56;
+    text-align:center;
+       width: 90%;
 }
 
 h3 {
@@ -101,3 +111,4 @@ h2 {
 .produtos:hover {
     background-color: whitesmoke;
 }
+

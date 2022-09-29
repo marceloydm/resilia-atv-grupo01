@@ -1,5 +1,4 @@
 @media (max-width: 700px) {
-
     /* Pertinentes a Div se comportar em colunas */
     .menuDiv {
         flex-direction: column;
@@ -12,12 +11,11 @@
     /* Pertinentes ao menu quadrado */
     .button {
         /* Sobre as cores, bordas e sombra da caixa */
-        margin-bottom: 15px;
-        width: 295px;
+        margin-bottom: 25px;
+        width: 400px;
         border: 3px solid transparent;
-        border-image: linear-gradient(-45deg, #fe984f, #eb834e, #ffab4b, #fd8d4c);
         border-image-slice: 1;
-        box-shadow: 2px 2px 0 #000000;
+        box-shadow: 3px 3px 8px #f867299a;
         opacity: 0.7;
         /*Tamanho da caixinha*/
         padding-left: 4px;
@@ -34,6 +32,14 @@
     .button:hover::after {
         display: none;
     }
+    
+    /* Página Home (index) */
+
+        /* Imagens index pastel e hambúrguer */
+        .imagensIndex {
+            flex-wrap: wrap;
+            
+        }
 
     /* Página quem somos (P1)
      /* Passando o texto para linha abaixo assim que o tamanho do site diminui */
@@ -45,11 +51,21 @@
     /* Para foto da página ficar no tamanho ideal */
     #fotoLanchonete {
         width: 100%;
+
     }
 
-     /* Imagens index pastel e hambúrguer */
-        .imagensIndex {
-            flex-wrap: wrap;
-        }
     
+    /* Página quem somos (P4)
+     /* Passando o texto para linha abaixo assim que o tamanho do site diminui */
+     .P4-textoDiv {
+        flex-wrap: wrap;
+
+    }
+
+    /* Para foto da página ficar no tamanho ideal */
+    #fotoNossaEquipe {
+        width: 100%;
+
+    }
+
 }
