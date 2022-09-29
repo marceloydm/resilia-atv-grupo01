@@ -1,7 +1,7 @@
 @media (max-width: 750px) {
 
     .produtos {
-        width:45%;
+        width: 45%;
     }
 
     #itens {
@@ -20,7 +20,7 @@
 
     /* o problema tá aqui */
     .precoProduto {
-        position:;
+        position: ;
         bottom: 5%;
         top: 5%;
     }

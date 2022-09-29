@@ -22,11 +22,12 @@ label {
 
 @media screen and (max-width: 750px) {
     div.divform {
-                width: 100%;
+        width: 100%;
     }
 }
 
-div.anuncio h3, h4 {
+div.anuncio h3,
+h4 {
     font-family: 'PT Sans', sans-serif;
     color: rgb(255, 94, 0);
     text-align: center;

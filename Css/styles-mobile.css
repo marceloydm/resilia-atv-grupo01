@@ -1,4 +1,5 @@
 @media (max-width: 700px) {
+
     /* Pertinentes a Div se comportar em colunas */
     .menuDiv {
         flex-direction: column;
@@ -43,11 +44,11 @@
 
     /* Página Home (index) */
 
-        /* Imagens index pastel e hambúrguer */
-        .imagensIndex {
-            flex-wrap: wrap;
-            
-        }
+    /* Imagens index pastel e hambúrguer */
+    .imagensIndex {
+        flex-wrap: wrap;
+
+    }
 
     /* Página quem somos (P1)
      /* Passando o texto para linha abaixo assim que o tamanho do site diminui */
@@ -63,10 +64,10 @@
         align-items: center;
     }
 
-    
+
     /* Página quem somos (P4)
      /* Passando o texto para linha abaixo assim que o tamanho do site diminui */
-     .P4-textoDiv {
+    .P4-textoDiv {
         flex-wrap: wrap;
 
     }
@@ -76,8 +77,9 @@
         width: 100%;
 
     }
+
     /*Logo PáginaIndex Espaçamento*/
-    #logo1{
+    #logo1 {
         margin-bottom: 15%;
-        }
+    }
 }

@@ -16,7 +16,7 @@
 
 /* produtos individuais */
 .produtos {
-     display: flex;
+    display: flex;
     flex-flow: column;
     background-color: white;
     border-radius: 20px;
@@ -51,12 +51,13 @@
     flex-flow: column;
     width: 95%;
 }
+
 /* classe pGeral = produtos geral. Organiza a div dos produtos individuais */
 .pGeral {
     display: flex;
     flex-wrap: wrap;
     padding: 4%;
-    
+
     justify-content: space-evenly;
 }
 
@@ -73,13 +74,14 @@
 /* textos */
 
 /* Adicionei cores aqui nos títulos das bebidas e passei para baixo o "p" */
-h1{
+h1 {
     font-family: 'Fonrine-Leight';
     color: #f86a2d;
-    text-align:center;
+    text-align: center;
     text-shadow: 1px 1px 1px #5e5c5c;
 }
- /*Adicionei aqui para mudar de cor */
+
+/*Adicionei aqui para mudar de cor */
 #nossosProdutos {
     color: #6d5d56;
     text-shadow: 0px 0px 0px rgb(93, 93, 93);
@@ -88,8 +90,8 @@ h1{
 p {
     font-family: 'Fonrine-Leight';
     color: #6d5d56;
-    text-align:center;
-       width: 90%;
+    text-align: center;
+    width: 90%;
 }
 
 h3 {
@@ -111,4 +113,3 @@ h2 {
 .produtos:hover {
     background-color: whitesmoke;
 }
-
