@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../Css/styles-index.css">
     <link rel="stylesheet" href="../Css/styles-mobile.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/styles-form.css">
 </head>
 
 <body>
@@ -26,10 +27,71 @@
         <img class="logoImg" id="logo" src="../Imagens/logoTeste.png">
     </a>
 
+    <!-- PARTE VICTOR -->
 
+    <section>
+        <div class="divform">
 
+            <div class="anuncio">
+                <h3>Preencha os campos abaixo</h3>
+                <h4>Diga sua comida preferida!</h4>
+            </div>
 
+            <form name="formcadastro" action="https://formsubmit.co/victorpetry2@hotmail.com" method="post" onsubmit="return validacao()">
 
+                <label for="inputNome">Nome</label>
+                <input type="text" id="inputNome" name="name" placeholder="Digite seu nome...">
+                
+
+                <label for="inputTelefone">Telefone</label>
+                <input type="number" id="inputTelefone" name="tel" placeholder="Digite seu telefone...">
+
+                <label for="inputEndereco">Endereço</label>
+                <input type="text" id="inputEndereco" name="adress" placeholder="Digite seu endereço...">
+                
+
+                <label for="inputEmail">E-mail</label>
+                <input type="text" id="inputEmail" name="email" placeholder="Digite seu e-mail...">
+       
+                <label for="escolhaComida">Qual sua comida preferida do nosso cardápio?</label>
+                <select>
+                    <option>Pastéis</option>
+                    <option>Hambúrgueres</option>
+                    <option>Sobremesas</option>
+                </select>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+                <input type="submit" name="enviar" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <script>
+        function validacao() {
+            var formulario = document.forms["formcadastro"]
+            var nome = formulario.name.value
+            var telefone = formulario.tel.value
+            var endereco = formulario.adress.value
+            
+
+            var erro = false
+
+            if (formulario.name.value=='') {
+                alert("Oops! Este campo precisa ser preenchido.")
+            }
+
+            if (telefone.length < 11) {
+                alert ("Oops! Parece que seu telefone não possui todos os dígitos.")
+                erro = true // quando identifica um erro 
+            }
+             
+            if (erro) { // se houver algum erro, retorna falso
+                return false
+            } else {
+                return true
+            }
+        
+        }
+    </script>
 
 
     
